@@ -35,6 +35,7 @@
                 </div>
 
                 <button type=" submit" class="btn btn-primary">Ubah Data</button>
+                <a href="/students" class="btn btn-success">Kembali</a>
 
             </form>
 

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+
 use App\Student;
 use Illuminate\Http\Request;
 
@@ -96,7 +97,7 @@ class StudentsController extends Controller
     {
         $request->validate([
             'nama' => 'required',
-            'nim' => 'required|size:10|unique:App\student,nim',
+            'nim' => 'required|size:10',
             'email' => 'required'
         ]);
 

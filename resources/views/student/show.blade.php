@@ -23,7 +23,7 @@
                         <button type="submit" class="btn btn-danger">Hapus</button>
                     </form>
 
-                    <a href="/students" class="card-link">Kembali</a>
+                    <a href="/students" class="btn btn-success">Kembali</a>
 
                 </div>
             </div>
